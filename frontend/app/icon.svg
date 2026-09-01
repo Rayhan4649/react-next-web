@@ -1,0 +1,29 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="16" fill="#020617"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="url(#border-grad)" stroke-width="2"/>
+  
+  {/* Apex Peak Frame */}
+  <path d="M32 10L52 48H42L32 28L22 48H12L32 10Z" fill="url(#apex-fav-1)"/>
+  
+  {/* Inner Core Chevron */}
+  <path d="M32 21L41 38H35L32 33L29 38H23L32 21Z" fill="#FFFFFF"/>
+  
+  {/* Accent Base Line */}
+  <rect x="18" y="44" width="28" height="4" rx="2" fill="url(#apex-fav-2)"/>
+
+  <defs>
+    <linearGradient id="border-grad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14B8A6" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="apex-fav-1" x1="12" y1="10" x2="52" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/>
+      <stop offset="0.5" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="apex-fav-2" x1="18" y1="44" x2="46" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+</svg>
